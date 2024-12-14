@@ -1,0 +1,27 @@
+{
+  "name": "twitterapp",
+  "version": "1.0.0",
+  "description": "twitter app with expressjs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/view/index.js"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Krityan",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^4.0.0",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7",
+    "script": "^0.1.4",
+    "zod": "^3.24.1"
+  }
+}
